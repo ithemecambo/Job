@@ -7,14 +7,52 @@
 
 import SwiftUI
 
-struct SearchSuggestionTagData: Identifiable, Codable {
+struct SuggestionSearchTagData: Identifiable, Codable {
     var id = UUID()
     var name: String? = ""
+    var count: String? = ""
+    
+    static var suggestionSearchTags: [SuggestionSearchTagData] {
+        return [
+            SuggestionSearchTagData(name: "Python Developer", count: "4"),
+            SuggestionSearchTagData(name: "Cisco Enginer", count: "13"),
+            SuggestionSearchTagData(name: "iOS Developer", count: "37"),
+            SuggestionSearchTagData(name: "IT Support", count: "53"),
+            SuggestionSearchTagData(name: "Accounting", count: "100"),
+            SuggestionSearchTagData(name: "Android Developer", count: "73"),
+            SuggestionSearchTagData(name: "Web Developer", count: "38")
+        ]
+    }
 }
 
-struct SearchSuggestionJobData: Identifiable, Codable {
+struct SuggestionSearchJobData: Identifiable, Codable {
     var id = UUID()
     var companyName: String? = ""
+    var companyLogoUrl: String? = ""
+    var position: String? = ""
+    
+    static var suggestionSearchJobs: [SuggestionSearchJobData] {
+        return [
+            SuggestionSearchJobData(companyName: "Mayura",
+                         companyLogoUrl: "logo_mayura_trusted",
+                         position: "Senior UX/UI Designer"),
+            SuggestionSearchJobData(companyName: "Accenture",
+                         companyLogoUrl: "accenture",
+                         position: "Accountance"),
+            SuggestionSearchJobData(companyName: "All Web",
+                         companyLogoUrl: "all-web",
+                         position: "Web Developer"),
+            SuggestionSearchJobData(companyName: "Bank Of America",
+                         companyLogoUrl: "bank-of-america",
+                         position: "Branch Manager"),
+            SuggestionSearchJobData(companyName: "Best Buy",
+                         companyLogoUrl: "best-buy",
+                         position: "Driver"),
+            SuggestionSearchJobData(companyName: "Booz Allen",
+                         companyLogoUrl: "booz-allen",
+                         position: "IT Enginer"),
+        ]
+    }
 }
 
 struct RecentSearchData: Identifiable, Codable {

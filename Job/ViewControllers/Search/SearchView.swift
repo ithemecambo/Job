@@ -10,6 +10,8 @@ import SwiftUI
 struct SearchView: View {
     @State private var searchText = ""
     @State private var showCancelButton: Bool = false
+    @State private var suggestionTags = SuggestionSearchTagData.suggestionSearchTags
+    @State private var suggestionJobs = SuggestionSearchJobData.suggestionSearchJobs
     @State private var recentSearches = RecentSearchData.recentSearches
     @State private var categorySearches = CategorySearchData.categorySearches
     
@@ -18,11 +20,16 @@ struct SearchView: View {
             HStack {
                 HStack {
                     Image(systemName: "magnifyingglass")
-                    TextField("Which Type Job you looking for?", text: $searchText, onEditingChanged: { isEditing in
+                        .font(.system(size: 20))
+                        .foregroundColor(.white)
+                    TextField("", text: $searchText, onEditingChanged: { isEditing in
                         self.showCancelButton = true
                     }, onCommit: {
                         print("onCommit")
-                    }).foregroundColor(.white)
+                    })
+                    .foregroundColor(.white)
+                    .modifier(PlaceholderStyleModifier(showPlaceHolder: searchText.isEmpty,
+                                                       placeholder: "Which Type Job you looking for?"))
 
                     Button(action: {
                         self.searchText = ""
@@ -30,7 +37,7 @@ struct SearchView: View {
                         Image(systemName: "xmark.circle.fill").opacity(searchText == "" ? 0 : 1)
                     }
                 }
-                .padding(EdgeInsets(top: 45, leading: 6, bottom: 10, trailing: 6))
+                .padding(EdgeInsets(top: 55, leading: 6, bottom: 10, trailing: 0))
                 .foregroundColor(.white)
                 .cornerRadius(5)
                 
@@ -60,6 +67,26 @@ struct SearchView: View {
             .background(Color("DarkOrange"))
             
             List {
+                Section(header:
+                    HStack {
+                        Text("Search Tags")
+                    }
+                    .padding([.top, .bottom], 16)
+                ) {
+                    ForEach(suggestionTags) { tag in
+                        SearchTagItem(suggestionTag: tag)
+                    }
+                }
+                Section(header:
+                    HStack {
+                        Text("Popular Search")
+                    }
+                    .padding([.top, .bottom], 16)
+                ) {
+                    ForEach(suggestionJobs) { job in
+                        SearchJobItem(suggestionJob: job)
+                    }
+                }
                 Section(header:
                     HStack {
                         Text("Recent Searches")
@@ -92,6 +119,7 @@ struct SearchView: View {
                     }
                 }
             }
+            .padding(.top, -10)
         }
         .ignoresSafeArea()
     }

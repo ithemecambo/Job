@@ -9,7 +9,9 @@ import SwiftUI
 
 struct AddListView: View {
     var body: some View {
-        Text("Add List")
+        LottieHandler(fileName: "online-chat",
+                      loopMode: .playOnce,
+                      duration: 2.5)
     }
 }
 

@@ -83,7 +83,10 @@ struct PlusMenu: View {
                 Circle()
                     .foregroundColor(Color("DarkOrange"))
                     .frame(width: widthAndHeight, height: widthAndHeight)
-                Image(systemName: "record.circle")
+                    .onTapGesture {
+                        print("Press Folder...")
+                    }
+                Image(systemName: "folder")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding(15)
@@ -94,7 +97,10 @@ struct PlusMenu: View {
                 Circle()
                     .foregroundColor(Color("DarkOrange"))
                     .frame(width: widthAndHeight, height: widthAndHeight)
-                Image(systemName: "folder")
+                    .onTapGesture {
+                        print("Press Paperclip")
+                    }
+                Image(systemName: "paperclip")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding(15)

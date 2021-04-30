@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,18 @@
 		155E2F6F263BF56700C1FECE /* BioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2F6E263BF56700C1FECE /* BioItem.swift */; };
 		155E2F73263BFF3F00C1FECE /* AccountDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2F72263BFF3F00C1FECE /* AccountDataModel.swift */; };
 		155E2F7C263C10CB00C1FECE /* AccountInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2F7B263C10CB00C1FECE /* AccountInfoView.swift */; };
+		155E2F80263C2F8C00C1FECE /* SearchTagItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2F7F263C2F8C00C1FECE /* SearchTagItem.swift */; };
+		155E2F84263C2FA000C1FECE /* SearchJobItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2F83263C2FA000C1FECE /* SearchJobItem.swift */; };
+		155E2F88263C399600C1FECE /* PlaceholderStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2F87263C399600C1FECE /* PlaceholderStyleModifier.swift */; };
+		155E2F90263C45D700C1FECE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 155E2F8F263C45D700C1FECE /* Lottie */; };
+		155E2F93263C46F400C1FECE /* LottieHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2F92263C46F400C1FECE /* LottieHandler.swift */; };
+		155E2F97263C484300C1FECE /* JobFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2F96263C484300C1FECE /* JobFilterView.swift */; };
+		155E2F9D263C503B00C1FECE /* guy-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 155E2F9B263C503B00C1FECE /* guy-animation.json */; };
+		155E2F9E263C503B00C1FECE /* online-chat.json in Resources */ = {isa = PBXBuildFile; fileRef = 155E2F9C263C503B00C1FECE /* online-chat.json */; };
+		155E2FA2263C63C100C1FECE /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2FA1263C63C100C1FECE /* UIViewController+extension.swift */; };
+		155E2FA5263C63F300C1FECE /* SwipeToDismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2FA4263C63F300C1FECE /* SwipeToDismissView.swift */; };
+		155E2FAC263C64F100C1FECE /* PushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2FAB263C64F100C1FECE /* PushView.swift */; };
+		155E2FB0263C651F00C1FECE /* PushViewLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2FAF263C651F00C1FECE /* PushViewLink.swift */; };
 		15C05346263A6D3F003B385B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05345263A6D3F003B385B /* AppDelegate.swift */; };
 		15C05348263A6D3F003B385B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05347263A6D3F003B385B /* SceneDelegate.swift */; };
 		15C0534A263A6D3F003B385B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05349263A6D3F003B385B /* ContentView.swift */; };
@@ -66,6 +78,17 @@
 		155E2F6E263BF56700C1FECE /* BioItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioItem.swift; sourceTree = "<group>"; };
 		155E2F72263BFF3F00C1FECE /* AccountDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDataModel.swift; sourceTree = "<group>"; };
 		155E2F7B263C10CB00C1FECE /* AccountInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoView.swift; sourceTree = "<group>"; };
+		155E2F7F263C2F8C00C1FECE /* SearchTagItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTagItem.swift; sourceTree = "<group>"; };
+		155E2F83263C2FA000C1FECE /* SearchJobItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchJobItem.swift; sourceTree = "<group>"; };
+		155E2F87263C399600C1FECE /* PlaceholderStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderStyleModifier.swift; sourceTree = "<group>"; };
+		155E2F92263C46F400C1FECE /* LottieHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieHandler.swift; sourceTree = "<group>"; };
+		155E2F96263C484300C1FECE /* JobFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobFilterView.swift; sourceTree = "<group>"; };
+		155E2F9B263C503B00C1FECE /* guy-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "guy-animation.json"; sourceTree = "<group>"; };
+		155E2F9C263C503B00C1FECE /* online-chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "online-chat.json"; sourceTree = "<group>"; };
+		155E2FA1263C63C100C1FECE /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
+		155E2FA4263C63F300C1FECE /* SwipeToDismissView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToDismissView.swift; sourceTree = "<group>"; };
+		155E2FAB263C64F100C1FECE /* PushView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushView.swift; sourceTree = "<group>"; };
+		155E2FAF263C651F00C1FECE /* PushViewLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewLink.swift; sourceTree = "<group>"; };
 		15C05342263A6D3F003B385B /* Job.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Job.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C05345263A6D3F003B385B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15C05347263A6D3F003B385B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155E2F90263C45D700C1FECE /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				155E2ED9263B9D6700C1FECE /* SearchBar.swift */,
+				155E2F92263C46F400C1FECE /* LottieHandler.swift */,
+				155E2FA4263C63F300C1FECE /* SwipeToDismissView.swift */,
 			);
 			path = Representable;
 			sourceTree = "<group>";
@@ -128,6 +154,8 @@
 		155E2F51263BE98D00C1FECE /* SearchItem */ = {
 			isa = PBXGroup;
 			children = (
+				155E2F7F263C2F8C00C1FECE /* SearchTagItem.swift */,
+				155E2F83263C2FA000C1FECE /* SearchJobItem.swift */,
 				155E2F52263BE98D00C1FECE /* RecentSearchItem.swift */,
 				155E2F56263BE9C800C1FECE /* CategorySearchItem.swift */,
 			);
@@ -172,6 +200,32 @@
 				155E2F7B263C10CB00C1FECE /* AccountInfoView.swift */,
 			);
 			path = AccountInfo;
+			sourceTree = "<group>";
+		};
+		155E2F95263C484300C1FECE /* JobFilter */ = {
+			isa = PBXGroup;
+			children = (
+				155E2F96263C484300C1FECE /* JobFilterView.swift */,
+			);
+			path = JobFilter;
+			sourceTree = "<group>";
+		};
+		155E2F9A263C503B00C1FECE /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				155E2F9B263C503B00C1FECE /* guy-animation.json */,
+				155E2F9C263C503B00C1FECE /* online-chat.json */,
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		155E2FAA263C64F100C1FECE /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				155E2FAB263C64F100C1FECE /* PushView.swift */,
+				155E2FAF263C651F00C1FECE /* PushViewLink.swift */,
+			);
+			path = Navigator;
 			sourceTree = "<group>";
 		};
 		15C05339263A6D3F003B385B = {
@@ -224,8 +278,9 @@
 		15C0535C263A6D5E003B385B /* Supported Files */ = {
 			isa = PBXGroup;
 			children = (
-				15C0534B263A6D3F003B385B /* Assets.xcassets */,
+				155E2F9A263C503B00C1FECE /* Lotties */,
 				15C05353263A6D3F003B385B /* Info.plist */,
+				15C0534B263A6D3F003B385B /* Assets.xcassets */,
 			);
 			path = "Supported Files";
 			sourceTree = "<group>";
@@ -236,8 +291,9 @@
 				155E2EEB263BACCF00C1FECE /* ParallaxHeader */,
 				155E2ED8263B9D6700C1FECE /* Representable */,
 				15C053B6263AAD0B003B385B /* ViewModifier */,
-				15C053AD263A84A1003B385B /* JobItem */,
 				155E2F51263BE98D00C1FECE /* SearchItem */,
+				15C053AD263A84A1003B385B /* JobItem */,
+				155E2FAA263C64F100C1FECE /* Navigator */,
 				15C053A0263A75A5003B385B /* TabBar */,
 				15C05398263A737D003B385B /* TabButton */,
 				155E2F5F263BECA300C1FECE /* AccountItem */,
@@ -253,6 +309,7 @@
 				15C0537B263A6EBC003B385B /* Main */,
 				15C05378263A6EBC003B385B /* Home */,
 				15C0537A263A6EBC003B385B /* Search */,
+				155E2F95263C484300C1FECE /* JobFilter */,
 				155E2EE3263BAAFB00C1FECE /* JobDetail */,
 				15C05377263A6EBC003B385B /* Add */,
 				15C0537D263A6EBC003B385B /* BookMark */,
@@ -279,6 +336,7 @@
 			children = (
 				15C053BF263AAD95003B385B /* View+extension.swift */,
 				155E2ECE263B9A3600C1FECE /* UIApplication+extension.swift */,
+				155E2FA1263C63C100C1FECE /* UIViewController+extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -438,6 +496,7 @@
 			isa = PBXGroup;
 			children = (
 				15C053BA263AAD3E003B385B /* NavigationBarModifier.swift */,
+				155E2F87263C399600C1FECE /* PlaceholderStyleModifier.swift */,
 				155E2ED1263B9AA500C1FECE /* ResignKeyboardOnDragGesture.swift */,
 			);
 			path = ViewModifier;
@@ -459,6 +518,9 @@
 			dependencies = (
 			);
 			name = Job;
+			packageProductDependencies = (
+				155E2F8F263C45D700C1FECE /* Lottie */,
+			);
 			productName = Job;
 			productReference = 15C05342263A6D3F003B385B /* Job.app */;
 			productType = "com.apple.product-type.application";
@@ -486,6 +548,9 @@
 				Base,
 			);
 			mainGroup = 15C05339263A6D3F003B385B;
+			packageReferences = (
+				155E2F8E263C45D700C1FECE /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 15C05343263A6D3F003B385B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -500,6 +565,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155E2F9D263C503B00C1FECE /* guy-animation.json in Resources */,
+				155E2F9E263C503B00C1FECE /* online-chat.json in Resources */,
 				15C05352263A6D3F003B385B /* LaunchScreen.storyboard in Resources */,
 				15C0534F263A6D3F003B385B /* Preview Assets.xcassets in Resources */,
 				15C0534C263A6D3F003B385B /* Assets.xcassets in Resources */,
@@ -521,32 +588,41 @@
 				15C053AF263A84A1003B385B /* JobListItem.swift in Sources */,
 				15C053C0263AAD95003B385B /* View+extension.swift in Sources */,
 				155E2F57263BE9C800C1FECE /* CategorySearchItem.swift in Sources */,
+				155E2FA2263C63C100C1FECE /* UIViewController+extension.swift in Sources */,
 				15C053A2263A75A5003B385B /* TabBarView.swift in Sources */,
 				155E2ECF263B9A3600C1FECE /* UIApplication+extension.swift in Sources */,
 				15C0537F263A6EBC003B385B /* MainView.swift in Sources */,
+				155E2F80263C2F8C00C1FECE /* SearchTagItem.swift in Sources */,
 				15C0536E263A6E02003B385B /* DataJobModel.swift in Sources */,
+				155E2FB0263C651F00C1FECE /* PushViewLink.swift in Sources */,
 				15C05383263A6EE5003B385B /* SettingView.swift in Sources */,
 				155E2F53263BE98D00C1FECE /* RecentSearchItem.swift in Sources */,
 				15C05393263A6F21003B385B /* HomeView.swift in Sources */,
 				15C05387263A6EF0003B385B /* AccountView.swift in Sources */,
+				155E2F97263C484300C1FECE /* JobFilterView.swift in Sources */,
 				15C053A6263A75E3003B385B /* JobRouter.swift in Sources */,
 				15C0538D263A6F0E003B385B /* AddListView.swift in Sources */,
 				155E2EED263BACCF00C1FECE /* HomeHeaderView.swift in Sources */,
 				155E2F5A263BEA0600C1FECE /* SearchViewModel.swift in Sources */,
 				155E2EDA263B9D6700C1FECE /* SearchBar.swift in Sources */,
 				155E2EE5263BAAFB00C1FECE /* JobDetailView.swift in Sources */,
+				155E2FA5263C63F300C1FECE /* SwipeToDismissView.swift in Sources */,
 				15C05348263A6D3F003B385B /* SceneDelegate.swift in Sources */,
 				155E2F4C263BE28D00C1FECE /* SearchDataModel.swift in Sources */,
 				155E2EF2263BB20800C1FECE /* HomeViewModel.swift in Sources */,
 				155E2F6C263BED4F00C1FECE /* EducationItem.swift in Sources */,
 				15C0539A263A737D003B385B /* TabButton.swift in Sources */,
+				155E2F93263C46F400C1FECE /* LottieHandler.swift in Sources */,
 				155E2F48263BC05C00C1FECE /* LTConstant.swift in Sources */,
 				155E2F6F263BF56700C1FECE /* BioItem.swift in Sources */,
+				155E2F84263C2FA000C1FECE /* SearchJobItem.swift in Sources */,
+				155E2FAC263C64F100C1FECE /* PushView.swift in Sources */,
 				155E2F61263BECA300C1FECE /* WorkExperienceItem.swift in Sources */,
 				15C0538A263A6EFD003B385B /* BookMarkView.swift in Sources */,
 				155E2F7C263C10CB00C1FECE /* AccountInfoView.swift in Sources */,
 				155E2F73263BFF3F00C1FECE /* AccountDataModel.swift in Sources */,
 				155E2ED2263B9AA500C1FECE /* ResignKeyboardOnDragGesture.swift in Sources */,
+				155E2F88263C399600C1FECE /* PlaceholderStyleModifier.swift in Sources */,
 				15C0534A263A6D3F003B385B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -745,6 +821,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		155E2F8E263C45D700C1FECE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		155E2F8F263C45D700C1FECE /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 155E2F8E263C45D700C1FECE /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 15C0533A263A6D3F003B385B /* Project object */;
 }

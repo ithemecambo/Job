@@ -17,7 +17,7 @@ struct WorkExperienceItem: View {
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 70, height: 70)
-                    .cornerRadius(25)
+                    .cornerRadius(35)
                 
                 VStack(alignment: .leading, spacing: 5) {
                     Text(work.position ?? "")

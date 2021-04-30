@@ -55,6 +55,7 @@ struct SettingView: View {
                 ) {
                     LetUsHelpYouItem(title: "Privacy Policy")
                     LetUsHelpYouItem(title: "Condition of Use")
+                    LetUsHelpYouItem(title: "FQAs")
                     LetUsHelpYouItem(title: "Feedback")
                 }
             }

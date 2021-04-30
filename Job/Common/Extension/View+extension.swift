@@ -16,4 +16,12 @@ extension View {
     func resignKeyboardOnDragGesture() -> some View {
         return modifier(ResignKeyboardOnDragGesture())
     }
+    
+    public func disableSwipeToDismiss() -> some View {
+        self.background(SwipeToDismissView(dismissable: { false }))
+    }
+    
+    public func allowsSwipeToDismiss(_ dismissable: Bool) -> some View {
+        self.background(SwipeToDismissView(dismissable: { dismissable }))
+    }
 }
