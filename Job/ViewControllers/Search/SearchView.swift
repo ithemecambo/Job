@@ -59,7 +59,6 @@ struct SearchView: View {
             .padding(.top, -10)
             .background(Color("DarkOrange"))
             
-            // Content data
             List {
                 Section(header:
                     HStack {
@@ -103,37 +102,3 @@ struct SearchView_Previews: PreviewProvider {
         SearchView()
     }
 }
-
-struct RecentSearchItem: View {
-    @State var recentSearch: RecentSearchData
-    
-    var body: some View {
-        HStack {
-            Text(recentSearch.name ?? "")
-            Spacer()
-            Button(action: {
-                
-            }, label: {
-                Image(systemName: "minus.circle")
-                    .font(.system(size: 20))
-                    .foregroundColor(Color("DarkOrange"))
-            })
-        }
-        .padding([.top, .bottom], 10)
-    }
-}
-
-struct CategorySearchItem: View {
-    @State var category: CategorySearchData
-    
-    var body: some View {
-        HStack {
-            Text(category.name ?? "")
-                .padding()
-                .foregroundColor(.white)
-                .background(Color("DarkOrange"))
-                .cornerRadius(25)
-        }
-    }
-}
-
