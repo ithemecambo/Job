@@ -17,11 +17,23 @@ extension View {
         return modifier(ResignKeyboardOnDragGesture())
     }
     
-    public func disableSwipeToDismiss() -> some View {
-        self.background(SwipeToDismissView(dismissable: { false }))
+    @ViewBuilder public func isHidden(_ shouldHide: Bool) -> some View {
+        switch shouldHide {
+        case true: self.hidden()
+        case false: self
+        }
     }
     
-    public func allowsSwipeToDismiss(_ dismissable: Bool) -> some View {
-        self.background(SwipeToDismissView(dismissable: { dismissable }))
+    @ViewBuilder public func isScaledToFill(_ shouldScaledToFill: Bool) -> some View {
+        switch shouldScaledToFill {
+        case true: self.scaledToFill()
+        case false: self.scaledToFit()
+        }
+    }
+}
+
+extension ForEach where Data.Element: Hashable, ID == Data.Element, Content: View {
+    init(values: Data, content: @escaping (Data.Element) -> Content) {
+        self.init(values, id: \.self, content: content)
     }
 }

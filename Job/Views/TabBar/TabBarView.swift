@@ -21,7 +21,7 @@ struct TabBarView: View {
                 case .search:
                     SearchView()
                 case .bookmark:
-                    BookMarkView()
+                    BookmarkView()
                 case .account:
                     AccountView()
                 }

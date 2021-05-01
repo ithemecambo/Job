@@ -40,7 +40,11 @@ struct RootView: View {
     var body: some View {
         VStack {
             NavigationLink(destination: DetailView())
-            { Text("I am Root. Tap for Detail View.") }
+            {
+                Text("I am Root. Tap for Detail View.")
+                    
+                
+            }
         }
     }
 }

@@ -12,6 +12,7 @@ struct HomeView: View {
     @State private var showDetail = false
     @State private var showCancelButton: Bool = false
     @State private var jobs = DataJobModel.jobs
+    //@EnvironmentObject private var navigation: Navigation
     
     var body: some View {
         VStack {
@@ -34,14 +35,6 @@ struct HomeView: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 50, height: 50)
                     .cornerRadius(25)
-                    .onTapGesture {
-                        PushView {
-                            JobDetailView()
-                        } label: { 
-                            Text("Job Detail")
-                        }
-
-                    }
             }
             .padding()
             

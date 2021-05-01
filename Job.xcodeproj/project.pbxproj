@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151961C3263C67C700E9D81B /* Bool+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151961B0263C67C700E9D81B /* Bool+extension.swift */; };
+		151961E2263CE89200E9D81B /* JobFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151961E1263CE89200E9D81B /* JobFilterViewModel.swift */; };
+		151961E5263CE8B100E9D81B /* JobDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151961E4263CE8B100E9D81B /* JobDetailViewModel.swift */; };
+		151961E8263CE8CA00E9D81B /* BookmarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151961E7263CE8CA00E9D81B /* BookmarkViewModel.swift */; };
+		151961EE263CE92F00E9D81B /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151961ED263CE92F00E9D81B /* AccountViewModel.swift */; };
+		151961F3263CFFB300E9D81B /* FilterDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151961F2263CFFB300E9D81B /* FilterDataModel.swift */; };
 		155E2ECF263B9A3600C1FECE /* UIApplication+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2ECE263B9A3600C1FECE /* UIApplication+extension.swift */; };
 		155E2ED2263B9AA500C1FECE /* ResignKeyboardOnDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2ED1263B9AA500C1FECE /* ResignKeyboardOnDragGesture.swift */; };
 		155E2EDA263B9D6700C1FECE /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2ED9263B9D6700C1FECE /* SearchBar.swift */; };
@@ -34,9 +40,6 @@
 		155E2F9D263C503B00C1FECE /* guy-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 155E2F9B263C503B00C1FECE /* guy-animation.json */; };
 		155E2F9E263C503B00C1FECE /* online-chat.json in Resources */ = {isa = PBXBuildFile; fileRef = 155E2F9C263C503B00C1FECE /* online-chat.json */; };
 		155E2FA2263C63C100C1FECE /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2FA1263C63C100C1FECE /* UIViewController+extension.swift */; };
-		155E2FA5263C63F300C1FECE /* SwipeToDismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2FA4263C63F300C1FECE /* SwipeToDismissView.swift */; };
-		155E2FAC263C64F100C1FECE /* PushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2FAB263C64F100C1FECE /* PushView.swift */; };
-		155E2FB0263C651F00C1FECE /* PushViewLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2FAF263C651F00C1FECE /* PushViewLink.swift */; };
 		15C05346263A6D3F003B385B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05345263A6D3F003B385B /* AppDelegate.swift */; };
 		15C05348263A6D3F003B385B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05347263A6D3F003B385B /* SceneDelegate.swift */; };
 		15C0534A263A6D3F003B385B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05349263A6D3F003B385B /* ContentView.swift */; };
@@ -47,7 +50,7 @@
 		15C0537F263A6EBC003B385B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0537C263A6EBC003B385B /* MainView.swift */; };
 		15C05383263A6EE5003B385B /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05382263A6EE5003B385B /* SettingView.swift */; };
 		15C05387263A6EF0003B385B /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05386263A6EF0003B385B /* AccountView.swift */; };
-		15C0538A263A6EFD003B385B /* BookMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05389263A6EFD003B385B /* BookMarkView.swift */; };
+		15C0538A263A6EFD003B385B /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05389263A6EFD003B385B /* BookmarkView.swift */; };
 		15C0538D263A6F0E003B385B /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0538C263A6F0E003B385B /* AddListView.swift */; };
 		15C05390263A6F19003B385B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0538F263A6F19003B385B /* SearchView.swift */; };
 		15C05393263A6F21003B385B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C05392263A6F21003B385B /* HomeView.swift */; };
@@ -60,6 +63,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151961B0263C67C700E9D81B /* Bool+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+extension.swift"; sourceTree = "<group>"; };
+		151961E1263CE89200E9D81B /* JobFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobFilterViewModel.swift; sourceTree = "<group>"; };
+		151961E4263CE8B100E9D81B /* JobDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewModel.swift; sourceTree = "<group>"; };
+		151961E7263CE8CA00E9D81B /* BookmarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewModel.swift; sourceTree = "<group>"; };
+		151961ED263CE92F00E9D81B /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		151961F2263CFFB300E9D81B /* FilterDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDataModel.swift; sourceTree = "<group>"; };
 		155E2ECE263B9A3600C1FECE /* UIApplication+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+extension.swift"; sourceTree = "<group>"; };
 		155E2ED1263B9AA500C1FECE /* ResignKeyboardOnDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResignKeyboardOnDragGesture.swift; sourceTree = "<group>"; };
 		155E2ED9263B9D6700C1FECE /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -86,9 +95,6 @@
 		155E2F9B263C503B00C1FECE /* guy-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "guy-animation.json"; sourceTree = "<group>"; };
 		155E2F9C263C503B00C1FECE /* online-chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "online-chat.json"; sourceTree = "<group>"; };
 		155E2FA1263C63C100C1FECE /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
-		155E2FA4263C63F300C1FECE /* SwipeToDismissView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToDismissView.swift; sourceTree = "<group>"; };
-		155E2FAB263C64F100C1FECE /* PushView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushView.swift; sourceTree = "<group>"; };
-		155E2FAF263C651F00C1FECE /* PushViewLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewLink.swift; sourceTree = "<group>"; };
 		15C05342263A6D3F003B385B /* Job.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Job.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C05345263A6D3F003B385B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15C05347263A6D3F003B385B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +107,7 @@
 		15C0537C263A6EBC003B385B /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		15C05382263A6EE5003B385B /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		15C05386263A6EF0003B385B /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
-		15C05389263A6EFD003B385B /* BookMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkView.swift; sourceTree = "<group>"; };
+		15C05389263A6EFD003B385B /* BookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
 		15C0538C263A6F0E003B385B /* AddListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListView.swift; sourceTree = "<group>"; };
 		15C0538F263A6F19003B385B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		15C05392263A6F21003B385B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -125,12 +131,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		151961A7263C67C700E9D81B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 		155E2ED8263B9D6700C1FECE /* Representable */ = {
 			isa = PBXGroup;
 			children = (
 				155E2ED9263B9D6700C1FECE /* SearchBar.swift */,
 				155E2F92263C46F400C1FECE /* LottieHandler.swift */,
-				155E2FA4263C63F300C1FECE /* SwipeToDismissView.swift */,
 			);
 			path = Representable;
 			sourceTree = "<group>";
@@ -139,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				155E2EE4263BAAFB00C1FECE /* JobDetailView.swift */,
+				151961E4263CE8B100E9D81B /* JobDetailViewModel.swift */,
 			);
 			path = JobDetail;
 			sourceTree = "<group>";
@@ -206,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				155E2F96263C484300C1FECE /* JobFilterView.swift */,
+				151961E1263CE89200E9D81B /* JobFilterViewModel.swift */,
 			);
 			path = JobFilter;
 			sourceTree = "<group>";
@@ -217,15 +231,6 @@
 				155E2F9C263C503B00C1FECE /* online-chat.json */,
 			);
 			path = Lotties;
-			sourceTree = "<group>";
-		};
-		155E2FAA263C64F100C1FECE /* Navigator */ = {
-			isa = PBXGroup;
-			children = (
-				155E2FAB263C64F100C1FECE /* PushView.swift */,
-				155E2FAF263C651F00C1FECE /* PushViewLink.swift */,
-			);
-			path = Navigator;
 			sourceTree = "<group>";
 		};
 		15C05339263A6D3F003B385B = {
@@ -253,6 +258,7 @@
 				15C0535D263A6D68003B385B /* Views */,
 				15C0535E263A6D70003B385B /* ViewControllers */,
 				15C0535C263A6D5E003B385B /* Supported Files */,
+				151961A7263C67C700E9D81B /* Libraries */,
 				15C0534D263A6D3F003B385B /* Preview Content */,
 			);
 			path = Job;
@@ -293,7 +299,6 @@
 				15C053B6263AAD0B003B385B /* ViewModifier */,
 				155E2F51263BE98D00C1FECE /* SearchItem */,
 				15C053AD263A84A1003B385B /* JobItem */,
-				155E2FAA263C64F100C1FECE /* Navigator */,
 				15C053A0263A75A5003B385B /* TabBar */,
 				15C05398263A737D003B385B /* TabButton */,
 				155E2F5F263BECA300C1FECE /* AccountItem */,
@@ -334,6 +339,7 @@
 		15C05364263A6E02003B385B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				151961B0263C67C700E9D81B /* Bool+extension.swift */,
 				15C053BF263AAD95003B385B /* View+extension.swift */,
 				155E2ECE263B9A3600C1FECE /* UIApplication+extension.swift */,
 				155E2FA1263C63C100C1FECE /* UIViewController+extension.swift */,
@@ -392,6 +398,7 @@
 			isa = PBXGroup;
 			children = (
 				15C0536C263A6E02003B385B /* DataJobModel.swift */,
+				151961F2263CFFB300E9D81B /* FilterDataModel.swift */,
 				155E2F4B263BE28D00C1FECE /* SearchDataModel.swift */,
 				155E2F72263BFF3F00C1FECE /* AccountDataModel.swift */,
 			);
@@ -450,7 +457,8 @@
 		15C0537D263A6EBC003B385B /* BookMark */ = {
 			isa = PBXGroup;
 			children = (
-				15C05389263A6EFD003B385B /* BookMarkView.swift */,
+				15C05389263A6EFD003B385B /* BookmarkView.swift */,
+				151961E7263CE8CA00E9D81B /* BookmarkViewModel.swift */,
 			);
 			path = BookMark;
 			sourceTree = "<group>";
@@ -462,6 +470,7 @@
 				155E2F78263C10CB00C1FECE /* EducationInfo */,
 				155E2F79263C10CB00C1FECE /* WorkExperienceInfo */,
 				15C05386263A6EF0003B385B /* AccountView.swift */,
+				151961ED263CE92F00E9D81B /* AccountViewModel.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -590,35 +599,38 @@
 				155E2F57263BE9C800C1FECE /* CategorySearchItem.swift in Sources */,
 				155E2FA2263C63C100C1FECE /* UIViewController+extension.swift in Sources */,
 				15C053A2263A75A5003B385B /* TabBarView.swift in Sources */,
+				151961F3263CFFB300E9D81B /* FilterDataModel.swift in Sources */,
 				155E2ECF263B9A3600C1FECE /* UIApplication+extension.swift in Sources */,
 				15C0537F263A6EBC003B385B /* MainView.swift in Sources */,
 				155E2F80263C2F8C00C1FECE /* SearchTagItem.swift in Sources */,
+				151961E2263CE89200E9D81B /* JobFilterViewModel.swift in Sources */,
 				15C0536E263A6E02003B385B /* DataJobModel.swift in Sources */,
-				155E2FB0263C651F00C1FECE /* PushViewLink.swift in Sources */,
 				15C05383263A6EE5003B385B /* SettingView.swift in Sources */,
 				155E2F53263BE98D00C1FECE /* RecentSearchItem.swift in Sources */,
 				15C05393263A6F21003B385B /* HomeView.swift in Sources */,
 				15C05387263A6EF0003B385B /* AccountView.swift in Sources */,
 				155E2F97263C484300C1FECE /* JobFilterView.swift in Sources */,
 				15C053A6263A75E3003B385B /* JobRouter.swift in Sources */,
+				151961E8263CE8CA00E9D81B /* BookmarkViewModel.swift in Sources */,
+				151961C3263C67C700E9D81B /* Bool+extension.swift in Sources */,
 				15C0538D263A6F0E003B385B /* AddListView.swift in Sources */,
 				155E2EED263BACCF00C1FECE /* HomeHeaderView.swift in Sources */,
 				155E2F5A263BEA0600C1FECE /* SearchViewModel.swift in Sources */,
 				155E2EDA263B9D6700C1FECE /* SearchBar.swift in Sources */,
 				155E2EE5263BAAFB00C1FECE /* JobDetailView.swift in Sources */,
-				155E2FA5263C63F300C1FECE /* SwipeToDismissView.swift in Sources */,
 				15C05348263A6D3F003B385B /* SceneDelegate.swift in Sources */,
 				155E2F4C263BE28D00C1FECE /* SearchDataModel.swift in Sources */,
 				155E2EF2263BB20800C1FECE /* HomeViewModel.swift in Sources */,
 				155E2F6C263BED4F00C1FECE /* EducationItem.swift in Sources */,
 				15C0539A263A737D003B385B /* TabButton.swift in Sources */,
 				155E2F93263C46F400C1FECE /* LottieHandler.swift in Sources */,
+				151961EE263CE92F00E9D81B /* AccountViewModel.swift in Sources */,
 				155E2F48263BC05C00C1FECE /* LTConstant.swift in Sources */,
 				155E2F6F263BF56700C1FECE /* BioItem.swift in Sources */,
 				155E2F84263C2FA000C1FECE /* SearchJobItem.swift in Sources */,
-				155E2FAC263C64F100C1FECE /* PushView.swift in Sources */,
 				155E2F61263BECA300C1FECE /* WorkExperienceItem.swift in Sources */,
-				15C0538A263A6EFD003B385B /* BookMarkView.swift in Sources */,
+				151961E5263CE8B100E9D81B /* JobDetailViewModel.swift in Sources */,
+				15C0538A263A6EFD003B385B /* BookmarkView.swift in Sources */,
 				155E2F7C263C10CB00C1FECE /* AccountInfoView.swift in Sources */,
 				155E2F73263BFF3F00C1FECE /* AccountDataModel.swift in Sources */,
 				155E2ED2263B9AA500C1FECE /* ResignKeyboardOnDragGesture.swift in Sources */,
@@ -767,6 +779,7 @@
 				DEVELOPMENT_TEAM = FK3FA23S5A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Job/Supported Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -788,6 +801,7 @@
 				DEVELOPMENT_TEAM = FK3FA23S5A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Job/Supported Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

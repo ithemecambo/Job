@@ -1,5 +1,5 @@
 //
-//  BookMarkView.swift
+//  BookmarkView.swift
 //  Job
 //
 //  Created by SENGHORT on 4/29/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BookMarkView: View {
+struct BookmarkView: View {
     @State private var bookmarks = DataJobModel.bookmarkList
     
     var body: some View {
@@ -33,8 +33,8 @@ struct BookMarkView: View {
     }
 }
 
-struct BookMarkView_Previews: PreviewProvider {
+struct BookmarkView_Previews: PreviewProvider {
     static var previews: some View {
-        BookMarkView()
+        BookmarkView()
     }
 }

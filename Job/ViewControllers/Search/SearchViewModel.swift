@@ -9,4 +9,6 @@ import SwiftUI
 
 class SearchViewModel {
     
+    
+    
 }

@@ -29,7 +29,26 @@ struct AccountView: View {
                                 .aspectRatio(contentMode: .fill)
                                 .frame(width: 100, height: 100)
                                 .cornerRadius(50)
-                                .padding(.top, 150)
+                                .padding(.top, 80)
+                            
+                            HStack {
+                                Button(action: {}, label: {
+                                    Image(systemName: "camera.fill")
+                                        .font(.system(size: 20))
+                                        .foregroundColor(Color.white)
+                                })
+                            }
+                            .padding(.leading, 45)
+                            .padding(.top, 140)
+                            
+                            HStack {
+                                Text("Senghort Kheang".uppercased())
+                                    .font(.system(size: 18))
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(.black)
+                                
+                            }
+                            .padding(.top, 220)
                         }
                         .padding(.top, 0)
                     }
@@ -100,15 +119,25 @@ struct AccountView: View {
             }
             .ignoresSafeArea()
             .navigationBarItems(trailing:
-                Button(action: {
-                    settingSheet.toggle()
-                }) {
-                    Image(systemName: "gearshape.fill")
-                        .font(.system(size: 25))
-                        .foregroundColor(Color("DarkOrange"))
-                }
-                .sheet(isPresented: $settingSheet) {
-                    SettingView()
+                HStack {
+                    Button(action: {
+                        
+                    }) {
+                        Image(systemName: "square.and.pencil")
+                            .font(.system(size: 25))
+                            .foregroundColor(Color("DarkOrange"))
+                    }
+                    
+                    Button(action: {
+                        settingSheet.toggle()
+                    }) {
+                        Image(systemName: "gearshape.fill")
+                            .font(.system(size: 25))
+                            .foregroundColor(Color("DarkOrange"))
+                    }
+                    .sheet(isPresented: $settingSheet) {
+                        SettingView()
+                    }
                 }
             )
             .navigationBarTitleDisplayMode(.inline)
