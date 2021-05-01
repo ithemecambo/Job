@@ -12,7 +12,7 @@ We will provide static layout template for fully project support all students, c
 
 
 ## Screenshot
-<img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/home.png" width="200"><img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/search.png" width="50"><img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/bookmark.png" width="50"><img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/account.png" width="50"><img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/settings.png" width="50">
+<img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/home.png" width="200">   <img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/search.png" width="200">    <img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/bookmark.png" width="200">   <img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/account.png" width="200">    <img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/settings.png" width="200">
 
     
 ## Technologies
