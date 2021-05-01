@@ -14,6 +14,7 @@ We will provide static layout template for fully project support all students, c
 ![Test Image 3](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/bookmark.png)
 ![Test Image 4](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/account.png)
 ![Test Image 5](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/settings.png)
+<img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/settings.png" style=" width:100px ; height:100px " />
 
     
 ## Technologies
