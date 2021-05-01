@@ -19,13 +19,13 @@ struct HomeView: View {
             // Profile
             HStack {
                 VStack(alignment: .leading, spacing: 5) {
-                    Text("Hello, Shamin Carlos")
+                    Text("Hello, SENGHORT")
                         .font(.title2)
                         .fontWeight(.semibold)
                     HStack {
                         Image(systemName: "location")
                             .foregroundColor(.gray)
-                        Text("#9, street 371, PP")
+                        Text("#19, St. 149, PP")
                             .foregroundColor(.gray)
                     }
                 }

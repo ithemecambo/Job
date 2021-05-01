@@ -13,6 +13,11 @@
 		151961E8263CE8CA00E9D81B /* BookmarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151961E7263CE8CA00E9D81B /* BookmarkViewModel.swift */; };
 		151961EE263CE92F00E9D81B /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151961ED263CE92F00E9D81B /* AccountViewModel.swift */; };
 		151961F3263CFFB300E9D81B /* FilterDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151961F2263CFFB300E9D81B /* FilterDataModel.swift */; };
+		151961FC263D135B00E9D81B /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 151961F7263D135B00E9D81B /* settings.png */; };
+		151961FD263D135B00E9D81B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 151961F8263D135B00E9D81B /* home.png */; };
+		151961FE263D135B00E9D81B /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = 151961F9263D135B00E9D81B /* account.png */; };
+		151961FF263D135B00E9D81B /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 151961FA263D135B00E9D81B /* search.png */; };
+		15196200263D135B00E9D81B /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 151961FB263D135B00E9D81B /* bookmark.png */; };
 		155E2ECF263B9A3600C1FECE /* UIApplication+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2ECE263B9A3600C1FECE /* UIApplication+extension.swift */; };
 		155E2ED2263B9AA500C1FECE /* ResignKeyboardOnDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2ED1263B9AA500C1FECE /* ResignKeyboardOnDragGesture.swift */; };
 		155E2EDA263B9D6700C1FECE /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2ED9263B9D6700C1FECE /* SearchBar.swift */; };
@@ -69,6 +74,11 @@
 		151961E7263CE8CA00E9D81B /* BookmarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewModel.swift; sourceTree = "<group>"; };
 		151961ED263CE92F00E9D81B /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		151961F2263CFFB300E9D81B /* FilterDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDataModel.swift; sourceTree = "<group>"; };
+		151961F7263D135B00E9D81B /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		151961F8263D135B00E9D81B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		151961F9263D135B00E9D81B /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		151961FA263D135B00E9D81B /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		151961FB263D135B00E9D81B /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
 		155E2ECE263B9A3600C1FECE /* UIApplication+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+extension.swift"; sourceTree = "<group>"; };
 		155E2ED1263B9AA500C1FECE /* ResignKeyboardOnDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResignKeyboardOnDragGesture.swift; sourceTree = "<group>"; };
 		155E2ED9263B9D6700C1FECE /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -136,6 +146,18 @@
 			children = (
 			);
 			path = Libraries;
+			sourceTree = "<group>";
+		};
+		151961F6263D135B00E9D81B /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				151961F7263D135B00E9D81B /* settings.png */,
+				151961F8263D135B00E9D81B /* home.png */,
+				151961F9263D135B00E9D81B /* account.png */,
+				151961FA263D135B00E9D81B /* search.png */,
+				151961FB263D135B00E9D81B /* bookmark.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 		155E2ED8263B9D6700C1FECE /* Representable */ = {
@@ -284,6 +306,7 @@
 		15C0535C263A6D5E003B385B /* Supported Files */ = {
 			isa = PBXGroup;
 			children = (
+				151961F6263D135B00E9D81B /* screenshots */,
 				155E2F9A263C503B00C1FECE /* Lotties */,
 				15C05353263A6D3F003B385B /* Info.plist */,
 				15C0534B263A6D3F003B385B /* Assets.xcassets */,
@@ -574,9 +597,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151961FC263D135B00E9D81B /* settings.png in Resources */,
+				151961FF263D135B00E9D81B /* search.png in Resources */,
 				155E2F9D263C503B00C1FECE /* guy-animation.json in Resources */,
+				151961FD263D135B00E9D81B /* home.png in Resources */,
+				151961FE263D135B00E9D81B /* account.png in Resources */,
 				155E2F9E263C503B00C1FECE /* online-chat.json in Resources */,
 				15C05352263A6D3F003B385B /* LaunchScreen.storyboard in Resources */,
+				15196200263D135B00E9D81B /* bookmark.png in Resources */,
 				15C0534F263A6D3F003B385B /* Preview Assets.xcassets in Resources */,
 				15C0534C263A6D3F003B385B /* Assets.xcassets in Resources */,
 			);
