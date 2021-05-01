@@ -1,20 +1,18 @@
 # Job
 
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Conact Info](#contact-info)
 
+
 ## General info
 We will provide static layout template for fully project support all students, client, etc.
 
+
 ## Screenshot
-![Test Image 1](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/home.png)
-![Test Image 2](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/search.png)
-![Test Image 3](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/bookmark.png)
-![Test Image 4](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/account.png)
-![Test Image 5](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/settings.png)
-<img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/settings.png" style=" width:100px ; height:100px " />
+<img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/home.png" width="50"><img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/search.png" width="50"><img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/bookmark.png" width="50"><img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/account.png" width="50"><img src="https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/settings.png" width="50">
 
     
 ## Technologies
