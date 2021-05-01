@@ -10,6 +10,11 @@ We will provide static layout template for fully project support all students, c
 
 ## Screenshot
 ![Test Image 1](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/home.png)
+![Test Image 2](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/search.png)
+![Test Image 3](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/bookmark.png)
+![Test Image 4](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/account.png)
+![Test Image 5](https://github.com/ithemecambo/Job/blob/master/Job/Supported%20Files/screenshots/settings.png)
+
     
 ## Technologies
 Project is created with:
