@@ -1,7 +1,23 @@
 # Job
 
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Conact Info](#contact-info)
+
+## General info
 We will provide static layout template for fully project support all students, client, etc.
 
-Email: senghort.rupp@gmail.com
+## Screenshot
+![Test Image 1](home.png)
+    
+## Technologies
+Project is created with:
+* Swift version: 5.0
+* Compatible OS version: 14.1
+* Lottie version: 3.2.1
 
-Tel: 0189702323/0969863618
+
+## Contact Info
+* Email: senghort.rupp@gmail.com
+* Tel: 0189702323/0969863618
